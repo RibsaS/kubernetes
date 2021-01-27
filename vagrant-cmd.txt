@@ -1,0 +1,6 @@
+vagrant up
+bagrant up kmaster
+vagrant ssh kmaster
+vagrant halt
+vagrant halt kmaster
+vagrant destroy
