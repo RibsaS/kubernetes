@@ -88,6 +88,7 @@ metadata:
     tier: node
     app: flannel
 spec:
+  selector: {} 
   template:
     metadata:
       labels:
@@ -166,6 +167,7 @@ metadata:
     tier: node
     app: flannel
 spec:
+  selector: {} 
   template:
     metadata:
       labels:
@@ -244,6 +246,7 @@ metadata:
     tier: node
     app: flannel
 spec:
+  selector: {} 
   template:
     metadata:
       labels:
@@ -322,6 +325,7 @@ metadata:
     tier: node
     app: flannel
 spec:
+  selector: {} 
   template:
     metadata:
       labels:
@@ -400,6 +404,7 @@ metadata:
     tier: node
     app: flannel
 spec:
+  selector: {} 
   template:
     metadata:
       labels:
