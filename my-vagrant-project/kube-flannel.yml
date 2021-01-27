@@ -90,7 +90,8 @@ metadata:
 spec:
   selector:
     matchLabels:
-      name: kube-flannel-ds-amd64
+      tier: node
+      app: flannel
   template:
     metadata:
       labels:
@@ -171,7 +172,8 @@ metadata:
 spec:
   selector:
     matchLabels:
-      name: kube-flannel-ds-amd64 
+      tier: node
+      app: flannel
   template:
     metadata:
       labels:
@@ -252,7 +254,8 @@ metadata:
 spec:
   selector:
     matchLabels:
-      name: kube-flannel-ds-arm
+      tier: node
+      app: flannel
   template:
     metadata:
       labels:
@@ -333,7 +336,8 @@ metadata:
 spec:
   selector:
     matchLabels:
-      name: kube-flannel-ds-ppc64le
+      tier: node
+      app: flannel
   template:
     metadata:
       labels:
@@ -414,7 +418,8 @@ metadata:
 spec:
   selector:
     matchLabels:
-      name: kube-flannel-ds-s390x 
+      tier: node
+      app: flannel 
   template:
     metadata:
       labels:
